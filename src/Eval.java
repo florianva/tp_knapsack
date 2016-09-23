@@ -20,7 +20,7 @@ public class Eval {
 		//Pour chaque objet dans le sac
 		for(int i=0; i<n; i++){
 			if(b[i]){
-				//Calcule du poids et du profit
+				//Calcul du poids et du profit
 				setWeight((float)getWeight()+new Integer(w[i]));
 				setZ((float)getZ()+new Integer(p[i]));
 				
